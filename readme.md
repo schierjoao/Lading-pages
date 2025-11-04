@@ -37,4 +37,6 @@ Durante o desenvolvimento deste projeto, foram aplicados conceitos de:
 cd landing-freelancer
 
 # Abra o arquivo index.html no navegador
+<img width="1920" height="836" alt="{CF9C14C5-F58E-4A5F-AA57-ABD5F7BD378F}" src="https://github.com/user-attachments/assets/24b45f69-2b03-45fb-81b5-6d429b12dc53" />
+
 
