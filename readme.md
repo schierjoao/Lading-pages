@@ -34,23 +34,7 @@ Durante o desenvolvimento deste projeto, foram aplicados conceitos de:
 - Boas práticas de design e UX/UI  
 - Integração de scripts externos e formatação moderna  
 
----
-
-## 📸 Preview
-
-(Adicione aqui uma imagem da sua landing page — exemplo:)
-
-![Preview da Landing Page](./preview.png)
-
----
-
-## ⚙️ Como executar o projeto localmente
-
-```bash
-# Clone o repositório
-git clone https://github.com/seuusuario/landing-freelancer.git
-
-# Acesse a pasta do projeto
 cd landing-freelancer
 
 # Abra o arquivo index.html no navegador
+
