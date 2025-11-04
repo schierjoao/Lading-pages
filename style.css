@@ -1,0 +1,193 @@
+/* ======== RESET ======== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #f5f6fa;
+  color: #333;
+}
+
+/* ======== CONTAINER ======== */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* ======== HEADER ======== */
+.hero {
+  background: linear-gradient(135deg, #1e1e2f, #6c63ff);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.logo span {
+  color: #ffb400;
+}
+
+.menu {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.menu a:hover {
+  color: #ffb400;
+}
+
+/* ======== HERO CONTENT ======== */
+.hero-content {
+  text-align: center;
+  margin-top: 100px;
+}
+.hero-content h2 {
+  font-size: 2.8rem;
+  line-height: 1.3;
+}
+.hero-content span {
+  color: #ffb400;
+}
+.hero-content p {
+  margin: 20px auto 40px;
+  font-size: 1.1rem;
+  max-width: 600px;
+}
+.btn {
+  background: #ffb400;
+  color: #1e1e2f;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #ffd65a;
+}
+
+/* ======== SERVIÇOS ======== */
+.servicos {
+  text-align: center;
+  padding: 80px 0;
+}
+.servicos h2 {
+  color: #1e1e2f;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.card {
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  width: 300px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.card img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+/* ======== CONTATO ======== */
+.contato {
+  background: #1e1e2f;
+  color: white;
+  text-align: center;
+  padding: 80px 0;
+}
+.contato p {
+  margin-bottom: 25px;
+}
+.contato form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 400px;
+  margin: auto;
+}
+.contato input, .contato textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+}
+.contato textarea {
+  resize: none;
+  height: 120px;
+}
+
+/* ======== FOOTER ======== */
+footer {
+  background: #111;
+  color: #aaa;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+/* ======== RESPONSIVO ======== */
+@media (max-width: 768px) {
+  .hero-content h2 {
+    font-size: 2rem;
+  }
+  .menu {
+    display: none;
+  }
+}
+.social-links {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.social-links a {
+  color: white;
+  background: #ffb400;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.social-links a:hover {
+  background: #ffd65a;
+  color: #1e1e2f;
+}
